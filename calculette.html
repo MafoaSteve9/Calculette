@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Calculette</h1>
+    </header>
+    <main class="main-block">
+        <div class="ecran">
+            <form action="">
+                <input id="result" type="text" disabled>
+                <div class="bloc-one">
+                    <button type="button"onclick="display('0')" value="0">0</button>
+                    <button type="button"onclick="display('1')" value="1">1</button>
+                    <button type="button"onclick="display('2')" value="2">2</button>
+                </div>
+                <div class="bloc-one">
+                    <button type="button"onclick="display('3')" value="3">3</button>
+                    <button type="button"onclick="display('4')" value="4">4</button>
+                    <button type="button"onclick="display('5')" value="5">5</button>
+                </div>
+                <div class="bloc-one">
+                    <button type="button"onclick="display('6')" value="6">6</button>
+                    <button type="button"onclick="display('7')" value="7">7</button>
+                    <button type="button"onclick="display('8')" value="8">8</button>
+                </div>
+                <div class="bloc-one">
+                    <button type="button"onclick="display('9')" value="9">9</button>
+                    <button type="button"onclick="display('/')" value="/">/</button>
+                    <button type="button"onclick="display('%')" value="%">%</button>
+                </div>
+                <div class="bloc-one">
+                    <button type="button"onclick="display('+')" value="+">+</button>
+                    <button type="button"onclick="display('-')" value="-">-</button>
+                    <button type="button"onclick="display('*')" value="*">*</button>
+                </div>
+                <div class="clear">
+                    <button type="button"onclick="calculate('=')" value="=">=</button>
+                    <button type="button"onclick="clearCalculette('C')" value="C">C</button>
+                    
+                </div>
+            </form>
+        </div>
+       
+    </main>
+    <script src="./calculette.js"></script>
+</body>
+</html>
